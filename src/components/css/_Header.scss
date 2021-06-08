@@ -1,0 +1,55 @@
+@import "Variables";
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  height: 70px;
+
+  .logo a {
+    color: $primary-color;
+    text-transform: uppercase;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+
+    .shoping-cart {
+      cursor: pointer;
+      position: relative;
+
+      span {
+        position: absolute;
+        top: -12px;
+        right: -7px;
+        background: $bg-red;
+        font-size: 10px;
+        color: $white-color;
+        padding: 3px 5px;
+        border-radius: 50%;
+        z-index: -1;
+      }
+    }
+  }
+  nav ul li {
+    display: inline-block;
+
+    a {
+      text-transform: uppercase;
+      color: $secondary-color;
+      padding: 0 15px;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+  .menu,
+  .close-list {
+    cursor: pointer;
+    display: none;
+  }
+
+
+}

@@ -1,0 +1,57 @@
+@import "Variables";
+
+.section {
+  max-width: 950px;
+  margin: 80px auto;
+  .details {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 50px;
+
+    img {
+      min-width: 300px;
+      min-height: 250px;
+      height: 250px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .box {
+      margin-left: 25px;
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+
+        h2 {
+          letter-spacing: 2px;
+          text-transform: uppercase;
+        }
+        span {
+          color: $dark-blue;
+          font-weight: 700;
+          margin-right: 25px;
+        }
+      }
+
+      p {
+        line-height: 1.5;
+        margin: 15px 0;
+      }
+      .cart {
+        border: 1px solid $dark-blue;
+        padding: 5px 8px;
+        border-radius: 3px;
+        margin-top: 10px;
+        color: $primary-color;
+        &:hover {
+          background-color: $dark-blue;
+          color: #fff;
+          transition: 0.5s all;
+        }
+      }
+    }
+  }
+}
