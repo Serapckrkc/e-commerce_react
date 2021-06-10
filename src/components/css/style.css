@@ -36,7 +36,7 @@ header nav .shoping-cart span {
   right: -7px;
   background: red;
   font-size: 10px;
-  color: #ffffff;
+  color: #f8f4f4;
   padding: 3px 5px;
   border-radius: 50%;
   z-index: -1;
@@ -74,7 +74,7 @@ ul,
 ol {
   padding: 0;
   margin: 0;
-  background-color: #555;
+  background-color: #fff;
 }
 
 body {
@@ -129,7 +129,7 @@ figure {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background:#333;
+    background:#ddd;
     z-index: 99;
     opacity: 0.97;
     -webkit-transition: 0.3s linear;
@@ -170,8 +170,8 @@ figure {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 300px;
-  min-height: 400px;
+  min-width: 150px;
+  min-height: 200px;
   border: 1px solid #eee;
   overflow: hidden;
   padding: 10px;
@@ -206,7 +206,7 @@ figure {
 }
 
 #product .card h3 a {
-  color: #ddd;
+  color: #20232a;
   margin-bottom: 10px;
 }
 
@@ -219,7 +219,7 @@ figure {
 }
 
 #product .card button {
-  border: 1px solid #20232a;
+  border: 1px solid ;
   padding: 5px 8px;
   border-radius: 3px;
   margin-top: 10px;
